@@ -33,8 +33,8 @@ class SideMenuTabletDesktop extends StatelessWidget {
               text: 'Dashboard',
               active: appProvider.currentPage == DisplayedPage.HOME,
               onTap: () {
-                appProvider.changeCurrentPage(DisplayedPage.HOME);
-                locator<NavigationService>().navigateTo(HomeRoute);
+            
+                
               },
             ),
             SideMenuItemDesktop(
@@ -53,7 +53,7 @@ class SideMenuTabletDesktop extends StatelessWidget {
               active: appProvider.currentPage == DisplayedPage.ORDERS,
               onTap: () {
                 appProvider.changeCurrentPage(DisplayedPage.ORDERS);
-                locator<NavigationService>().navigateTo(OrdersRoute);
+                // locator<NavigationService>().navigateTo(OrdersRoute);
               },
             ),
             SideMenuItemDesktop(

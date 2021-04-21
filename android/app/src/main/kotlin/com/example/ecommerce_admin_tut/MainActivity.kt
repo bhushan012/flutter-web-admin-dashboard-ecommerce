@@ -1,4 +1,4 @@
-package com.example.ecommerce_admin_tut
+package com.whynew.whynewapp
 
 import io.flutter.embedding.android.FlutterActivity
 

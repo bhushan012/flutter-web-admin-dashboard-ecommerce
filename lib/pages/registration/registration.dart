@@ -149,7 +149,7 @@ class RegistrationPage extends StatelessWidget {
                         CustomText(text: "Already have an account? ", size: 16,color: Colors.grey,),
                         GestureDetector(
                             onTap: (){
-                              locator<NavigationService>().globalNavigateTo(LoginRoute, context);
+                              // locator<NavigationService>().globalNavigateTo(LoginRoute, context);
                             },
                             child: CustomText(text: "Sign in here.. ", size: 16,color: Colors.indigo,)),
 

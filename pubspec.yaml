@@ -26,17 +26,19 @@ dependencies:
   responsive_builder: ^0.3.0
   get_it:
   fl_chart: ^0.12.0
-  charts_flutter: ^0.9.0
-  provider: ^4.3.2+2
+  charts_flutter: 
+  provider: ^5.0.0
   responsive_table: ^0.1.1+8
-  firebase_core: ^0.5.2+1
-  firebase_auth: ^0.18.3+1
-  cloud_firestore: ^0.14.3+1
-  shared_preferences: ^0.5.12+4
+  firebase_core: 
+  firebase_auth: ^1.0.1
+  cloud_firestore: ^1.0.3
+  shared_preferences: ^2.0.5
   flutter_spinkit: ^4.1.2+1
-  intl: ^0.16.1
-
-
+  intl: ^0.17.0
+  firebase_core_platform_interface: ^4.0.0
+  firebase_auth_web: ^1.0.5
+  flutter_svg:
+  # firebase:
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.1

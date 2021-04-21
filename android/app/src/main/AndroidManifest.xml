@@ -1,5 +1,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.ecommerce_admin_tut">
+    package="com.whynew.whynewapp">
    <application
         android:label="ecommerce_admin_tut"
         android:icon="@mipmap/ic_launcher">
